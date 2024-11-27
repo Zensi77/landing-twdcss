@@ -10,6 +10,11 @@ export const routes: Routes = [
         path: 'introduccion',
         title: 'Introducción',
         loadComponent: () => import('./dashboard/pages/initial-page/initial-page.component').then(m => m.InitialPageComponent),
+      },
+      {
+        path: 'texto',
+        title: 'Texto',
+        loadComponent: () => import('./dashboard/pages/texts-page/texts-page.component').then(m => m.TextsPageComponent),
       }
     ]
   }
