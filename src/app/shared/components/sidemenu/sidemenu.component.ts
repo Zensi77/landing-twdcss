@@ -9,7 +9,7 @@ import { routes } from '../../../app.routes';
   selector: 'sheared-side-menu',
   imports: [CommonModule, RouterModule],
   templateUrl: './sidemenu.component.html',
-  styles: ``
+  styleUrl: './sidemenu.component.scss'
 })
 export class SidemenuComponent {
 
