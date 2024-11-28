@@ -15,6 +15,21 @@ export const routes: Routes = [
         path: 'texto',
         title: 'Texto',
         loadComponent: () => import('./dashboard/pages/texts-page/texts-page.component').then(m => m.TextsPageComponent),
+      },
+      {
+        path: 'components',
+        title: 'Componentes',
+        loadComponent: () => import('./dashboard/pages/helpers-page/helpers-page.component').then(m => m.HelpersPageComponent),
+      },
+      {
+        path: 'animation',
+        title: 'Animaciones',
+        loadComponent: () => import('./dashboard/pages/animations-page/animations-page.component').then(m => m.AnimationsPageComponent),
+      },
+      {
+        path: 'responsive',
+        title: 'Responsivo',
+        loadComponent: () => import('./dashboard/pages/responsive-page/responsive-page.component').then(m => m.ResponsivePageComponent),
       }
     ]
   }
