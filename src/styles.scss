@@ -1,4 +1,15 @@
+@use './variables' as *;
+
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+
+.rootScroll{
+  scrollbar-color: $scrollbar-thumb-color $bg-color;
+}
+
+h1 {
+  color: $title-color;
+}

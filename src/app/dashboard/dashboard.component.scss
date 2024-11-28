@@ -1,5 +1,6 @@
-$bg-color: #1e293b;
+@use '../../variables' as *;
 
 #dashboard {
   background: $bg-color;
 }
+
