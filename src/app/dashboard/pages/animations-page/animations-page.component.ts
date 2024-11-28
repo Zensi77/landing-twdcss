@@ -4,8 +4,14 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './animations-page.component.html',
-  styles: ``
+  styles: `
+    .colors div{
+      height: 50px;
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  `,
 })
-export class AnimationsPageComponent {
-
-}
+export class AnimationsPageComponent {}
