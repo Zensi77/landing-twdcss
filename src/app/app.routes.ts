@@ -17,9 +17,9 @@ export const routes: Routes = [
         loadComponent: () => import('./dashboard/pages/texts-page/texts-page.component').then(m => m.TextsPageComponent),
       },
       {
-        path: 'components',
-        title: 'Componentes',
-        loadComponent: () => import('./dashboard/pages/helpers-page/helpers-page.component').then(m => m.HelpersPageComponent),
+        path: 'responsive',
+        title: 'Responsivo',
+        loadComponent: () => import('./dashboard/pages/responsive-page/responsive-page.component').then(m => m.ResponsivePageComponent),
       },
       {
         path: 'animation',
@@ -27,10 +27,10 @@ export const routes: Routes = [
         loadComponent: () => import('./dashboard/pages/animations-page/animations-page.component').then(m => m.AnimationsPageComponent),
       },
       {
-        path: 'responsive',
-        title: 'Responsivo',
-        loadComponent: () => import('./dashboard/pages/responsive-page/responsive-page.component').then(m => m.ResponsivePageComponent),
-      }
+        path: 'components',
+        title: 'Componentes',
+        loadComponent: () => import('./dashboard/pages/helpers-page/helpers-page.component').then(m => m.HelpersPageComponent),
+      },
     ]
   }
 ];
