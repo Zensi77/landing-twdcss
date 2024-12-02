@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './responsive-page.component.html',
-  styles: ``
+  styles: ``,
 })
-export class ResponsivePageComponent {
-
-}
+export class ResponsivePageComponent {}

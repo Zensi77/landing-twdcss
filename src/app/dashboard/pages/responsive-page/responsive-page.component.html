@@ -1,27 +1,42 @@
 <div class="m-5">
-  <h1 class="text-3xl font-bold text-blue-400 mb-6 text-center">Responsivo mediante greed</h1>
+  <h1 class="text-3xl font-bold text-blue-400 mb-6 text-center">Responsivo mediante grid</h1>
   <p class="text-lg md:text-xl text-gray-300 text-start mx-auto max-w-3xl mb-8">
     La responsividad es un aspecto fundamental en el desarrollo web moderno, asegurando que las aplicaciones se adapten
     fluidamente a diferentes tamaños de pantalla, desde dispositivos móviles hasta pantallas de escritorio. Tailwind CSS
     simplifica enormemente este proceso al proporcionar un sistema de clases utilitarias diseñadas específicamente para
     manejar estilos responsivos de manera eficiente y sin necesidad de escribir media queries manualmente.</p>
-    <p class="text-lg md:text-xl text-gray-300 text-start mx-auto max-w-3xl mb-8">
-      A diferencia de otros frameworks como Bootstrap, que limitan el número de columnas a 12, el sistema Grid de Tailwind CSS es altamente flexible, permitiendo definir cualquier cantidad de columnas según las necesidades del proyecto. Esto se logra utilizando la clase <span class="bg-gray-800 text-white px-1 rounded">grid-cols-{{ '{' }}n{{ '}' }}</span>, donde <span class="bg-gray-800 text-white px-1 rounded">{{ '{' }}n{{ '}' }}</span> representa el número de columnas deseadas, desde 1 hasta tantas como necesites.
-    </p>
+  <p class="text-lg md:text-xl text-gray-300 text-start mx-auto max-w-3xl mb-8">
+    A diferencia de otros frameworks como Bootstrap, que limitan el número de columnas a 12, el sistema Grid de Tailwind
+    CSS es altamente flexible, permitiendo definir cualquier cantidad de columnas según las necesidades del proyecto.
+    Esto se logra utilizando la clase <span class="bg-gray-800 text-white px-1 rounded">grid-cols-{{ '{' }}n{{ '}'
+      }}</span>, donde <span class="bg-gray-800 text-white px-1 rounded">{{ '{' }}n{{ '}' }}</span> representa el número
+    de columnas deseadas, desde 1 hasta tantas como necesites.
+  </p>
 
   <div class=" bg-gray-800 rounded-lg text-center shadow-md transform grid grid-cols-12 gap-4">
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
-    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">Columna</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna1</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna2</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna3</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna4</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna5</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna6</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna7</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna8</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna9</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna10</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna11</div>
+    <div class="bg-blue-200 p-2 rounded shadow sm:col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-2 2xl:col-span-1">
+      Columna12</div>
   </div>
 </div>
-
